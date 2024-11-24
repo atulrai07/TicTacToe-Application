@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TicTac_Atul">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/result_txt"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+    <ImageView
+        android:layout_width="411dp"
+        android:layout_height="300dp"
+        android:src="@drawable/tic_tac_toe_image"
+        android:layout_marginBottom="20dp"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn1"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn2"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn3"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn4"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn5"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn6"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn7"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn8"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="11dp"
+            android:id="@+id/btn9"
+            android:onClick="Check"
+            android:layout_height="100sp"
+            android:textSize="40dp"/>
+
+
+    </GridLayout>
+
+</LinearLayout>
